@@ -1,0 +1,66 @@
+.main{
+    background-color: #FFF7D6;
+    min-height: 100vh;
+}
+@media screen and (max-width:991px) {
+    .treePic{
+        order:2;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .homeText{
+        order:1;
+    }
+}
+.treePic{
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+}
+.heading{
+    border-bottom: 2px solid black;
+}
+@media screen and (max-width:991.9px){
+    .apic{
+        order:1;
+    }
+    .para{
+        order:2;
+    }
+}
+.quote{
+    float: right;
+}
+.pic{
+    height: 10rem;
+}
+.apply{
+    background-color: #A6CF98;
+}
+.heading{
+    border-bottom: 2px solid black;
+}
+.info{
+    text-align: center;
+}
+.contactusImg{
+    width: 90%;
+}
+
+@media screen and (max-width:991px){
+    .contactusImg{
+        display: none;
+    }    
+}
+.heading{
+    border-bottom: 2px solid black;
+}
+.ulist{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+} 
+.high{
+    text-decoration: underline;
+    display: block;
+}
